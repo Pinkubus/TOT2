@@ -36,8 +36,10 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver.common.keys import Keys  # for pressing Enter
 
 # ======== YOUR CREDENTIALS (edit these two!) ========
-PINTEREST_EMAIL    = "cheerandjoy@yahoo.com"
-PINTEREST_PASSWORD = "Taijutsu10^!!"
+# IMPORTANT: Never commit real credentials to version control!
+# Use environment variables or a separate config file instead
+PINTEREST_EMAIL    = ""  # Set this via environment variable or config file
+PINTEREST_PASSWORD = ""  # Set this via environment variable or config file
 # =====================================================
 
 # Driver helper
